@@ -21,11 +21,13 @@ The Unity Annotation Tool is a custom editor tool designed to enable easy annota
 2. **Activate the Tool**: Toggle the "Activate Annotation Tool" button to enable or disable the annotation tool.
 3. **Select Mode**: Choose between Draw Mode, Text Mode, and Eraser Mode by clicking the respective buttons.
    - **Draw Mode**: Click and drag in the Scene view to draw lines. Adjust brush size and color in the tool window.
-   - **Text Mode**: Click in the Scene view to place a text annotation. Enter the desired text in the tool window.
-   - **Eraser Mode**: Click and drag in the Scene view to erase annotations.
 4. **Manage Annotations**:
    - **Undo Last Stroke**: Click the "Undo Last Stroke" button to remove the last annotation added.
    - **Clear Annotations**: Click the "Clear Annotations" button to remove all annotations from the scene.
+
+## Planned Features
+- **Text Mode**: Click in the Scene view to place a text annotation. Enter the desired text in the tool window.
+- **Eraser Mode**: Click and drag in the Scene view to erase annotations.
 
 ## Notes
 - **Non-Interference**: The annotation tool is designed to not interfere with other Unity tools, such as the tile palette tool. Ensure the tool is deactivated when not in use to avoid conflicts.
