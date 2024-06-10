@@ -38,4 +38,4 @@ Contributions to improve the tool are welcome. Feel free to fork the repository 
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
 ## Contact
-For any questions or support, please contact [your email/contact information].
+For any questions or support, please contact [tastiegamesofficial@gmail.com].
