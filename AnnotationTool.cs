@@ -296,7 +296,18 @@ public class AnnotationTool : EditorWindow
 
         foreach (Transform child in annotationParent.transform)
         {
-            if (Vector3.Distance(child.position, worldPosition) < eraserSize)
+            if (child.TryGetComponent<LineRenderer>(out LineRenderer lineRenderer))
+            {
+                Vector3[] positions = new Vector3[lineRenderer.positionCount];
+                lineRenderer.GetPositions(positions);
+
+                // Check if any point in the line is within the eraser size
+                if (positions.Any(pos => Vector3.Distance(pos, worldPosition) < eraserSize))
+                {
+                    toRemove.Add(child.gameObject);
+                }
+            }
+            else if (Vector3.Distance(child.position, worldPosition) < eraserSize)
             {
                 toRemove.Add(child.gameObject);
             }
