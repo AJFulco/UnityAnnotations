@@ -27,7 +27,7 @@ The Unity Annotation Tool is a custom editor tool designed to enable easy annota
 
 ## Planned Features
 - **Text Mode**: Click in the Scene view to place a text annotation. Enter the desired text in the tool window.
-- **Eraser Mode**: Click and drag in the Scene view to erase annotations.
+
 
 ## Notes
 - **Non-Interference**: The annotation tool is designed to not interfere with other Unity tools, such as the tile palette tool. Ensure the tool is deactivated when not in use to avoid conflicts.
